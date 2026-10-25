@@ -1,0 +1,8 @@
+﻿id,name,category,price,unit,weighted,image,active
+1,كفتة مشوية,المشويات,400,كجم,TRUE,images/kofta.jpg,TRUE
+2,طرب,المشويات,650,كجم,TRUE,images/tarb.svg,TRUE
+3,سجق مشوي,المشويات,380,كجم,TRUE,images/sausage.svg,TRUE
+4,فتة كوارع,الفتة,220,طبق,FALSE,images/fatta.jpg,TRUE
+5,رغيف حواوشي,السندوتشات,90,رغيف,FALSE,images/hawawshi.jpg,TRUE
+6,طاجن لحمة,الطواجن,260,طاجن,FALSE,images/tagine.jpg,TRUE
+7,سلطة خضراء,السلطات,40,طبق,FALSE,images/salad.jpg,TRUE
