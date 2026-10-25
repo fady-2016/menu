@@ -1,2 +1,0 @@
-# menu
-hanaa-home-menu
