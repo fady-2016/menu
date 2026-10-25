@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17130e"><title>مطعم هناء | الأكل البيتي والفلاحي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero"><img class="restaurant-logo" src="images/logo.png" alt="لوجو مطعم هناء للأكل البيتي والفلاحي"><p>الأكل البيتي والفلاحي</p><h1>مطعم هناء</h1><p>أكل بيتي… بطعم أصيل</p><a class="button gold" href="#menu">تصفح المنيو</a> <a class="button location-link" href="https://www.google.com/maps/search/?api=1&query=31.4457493,31.6822019" target="_blank" rel="noopener">📍 موقع المطعم على الخريطة</a></header>
+<main class="container">
+  <section id="menu"><div class="section-title"><h2>قائمة الطعام</h2><p>اختار أكلتك المفضلة</p></div>
+  <input id="search" class="field search" type="search" placeholder="ابحث عن صنف..." aria-label="ابحث عن صنف">
+  <nav id="categories" class="categories" aria-label="أقسام المنيو"></nav><div id="status" class="status" role="status"></div><section id="products" class="products"></section></section>
+  <section id="cart" class="panel"><h2>🛒 سلة الطلبات</h2><div id="cart-items"><p class="muted">السلة فارغة حاليًا.</p></div><div class="total-row"><span>إجمالي الطلب</span><strong id="cart-total">0 ج.م</strong></div>
+  <form id="order-form"><h3>بيانات الطلب</h3><label for="order-type">نوع الطلب</label><select class="field" id="order-type"><option value="داخل المطعم">داخل المطعم</option><option value="توصيل">توصيل للمنزل</option></select>
+  <div id="table-field"><label for="table-number">رقم الطاولة</label><input class="field" id="table-number" placeholder="مثال: 4"></div>
+  <div id="delivery-fields" hidden><label for="customer-name">اسم العميل</label><input class="field" id="customer-name" placeholder="الاسم"><label for="customer-address">عنوان التوصيل</label><input class="field" id="customer-address" placeholder="العنوان بالتفصيل"><button class="button location-link" id="get-location" type="button">📍 تحديد موقعي GPS</button><p id="location-status" class="status" role="status">يمكنك إرسال موقعك مع الطلب عبر واتساب.</p></div>
+  <label for="notes">ملاحظات</label><textarea class="field" id="notes" placeholder="أي إضافات أو ملاحظات"></textarea><button class="button whatsapp" type="submit">إرسال الطلب إلى واتساب الكاشير</button></form></section>
+</main><footer><h3>مطعم هناء</h3><p>أكل بيتي بطعم أصيل</p><p>واتساب الطلبات: 00201114642261</p><small>الأسعار في بيانات البداية تجريبية ويجب اعتمادها من المطعم.</small></footer>
+<script src="config.js"></script><script src="script.js"></script>
+</body></html>
